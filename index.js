@@ -1,11 +1,11 @@
 
 
-import { DeckBuilder } from "./src/TwoTemplates/DeckBuilder";
-import {GlobalThemes} from "./src/theme/globalThemes";
-import {GlobalBackgrounds} from "./src/theme/globalBackgrounds";
- 
+import { EqDeckBuilder } from "./src/EqDeckBuilder";
+import { Sp } from "./src/Sp";
+export { default as spDemo } from './examples/sp-demo.js';
+
 export{
-    DeckBuilder,
-    GlobalThemes,
-    GlobalBackgrounds
+    EqDeckBuilder,
+    Sp,
+    spDemo
 }
